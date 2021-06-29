@@ -1,0 +1,101 @@
+.header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #2A2D34;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo {
+    width: 200px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 0px;
+}
+
+.header_nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+
+.header_option, .header_option:link, .header_option:visited, .header_option:active, .header_option:hover, {
+    color: white;
+    border:0!important;
+}
+.header_twitterIcon{
+    display: flex;
+    align-items: center;
+    color: #00ACEE;
+    margin-right: 10px;
+}
+
+.home_button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header_title {
+    margin-right: 100px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+.dropdownMenu {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgb(44, 114, 200, 0.5);
+    border-radius: 10px;
+    background: #009DDC;
+}
+
+    .dropdownMenu a {
+        background-color: #F26430; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+        .dropdownMenu a:hover {
+            background-color: #F24000; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+.ddm_wrapper {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dropdownMenu_item {
+}

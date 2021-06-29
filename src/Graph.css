@@ -1,0 +1,169 @@
+* {
+}
+
+.graph {
+    width: 100%;
+    display: flex;
+    justify-content: spread-apart;
+}
+
+.graph_interface {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-left: 2.5%;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.graph_info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.graph_title {
+    font-size: 30px;
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 220px;
+}
+
+.graph_title_region {
+    margin-top: 0px;
+    font-size: 30px;
+    margin-left: 220px;
+    width: 25%;
+}
+
+.graph_image {
+    margin-bottom: 100px;
+}
+.waiting {
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.waiting_title {
+    display: flex;
+    justify-content: center;
+}
+
+.waiting_titleText {
+    font-size: 70px;
+}
+
+.graph_entrieswrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 0 0 15px 4px rgb(44, 114, 200, 0.5);
+    border-radius: 10px;
+    background: #009DDC;
+    color: white;
+    height: 100px;
+}
+
+.graph_entriesInput {
+    margin-top: 10px;
+    font-size: 25px;
+    height: 100px;
+}
+
+.graph_entriesInputBar {
+    padding: 5px;
+    border: 2px solid #eee;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    width: 85px;
+    height: 50px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.graph_entriesInputLabel {
+    height: 10px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    width: 10%;
+}
+
+.dropdownMenu_state {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 25%;
+}
+
+    .dropdownMenu_state a {
+        background-color: #F26430;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+        .dropdownMenu_state a:hover {
+            background-color: #F24000;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+.ddms_wrapper {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dropdownMenu_country {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+
+    .dropdownMenu_country a {
+        background-color: #F26430; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+        .dropdownMenu_country a:hover {
+            background-color: #F24000; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+.ddmc_wrapper {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
