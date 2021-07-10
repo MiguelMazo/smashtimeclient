@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .about_info {
@@ -14,10 +14,10 @@
 
 .about_infoText {
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
 }
 .about_me {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .about_meText {

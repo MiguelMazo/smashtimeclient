@@ -8,7 +8,7 @@ function Home(){
 			<div className = "home_title"> 
 				<span className = 'home_titleText'>
 					<Link to='/graph/all'>
-						<p1 href='graph'>Click Here to make a Graph!</p1>
+						<div class="card"></div>
 					</Link>
 					</span>
 			</div>

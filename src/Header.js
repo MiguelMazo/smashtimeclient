@@ -28,7 +28,6 @@ export default class Header extends Component{
 					/>
 					</Link>
 				<div className = "header_title">
-					Are you a Wifi Warrior?
 				</div>
 
 

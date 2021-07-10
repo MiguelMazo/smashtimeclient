@@ -1,4 +1,4 @@
-* {
+﻿* {
 }
 
 .graph {
@@ -12,18 +12,19 @@
     flex-direction: column;
     height: 300px;
     margin-left: 2.5%;
-    margin-top: 30px;
+    margin-top: 10%;
     justify-content: center;
 }
 
 .graph_info {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 85%;
 }
+
 .graph_title {
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 30%;
     margin-left: 220px;
 }
@@ -35,12 +36,26 @@
     width: 25%;
 }
 
+.graph_title_maxEntrants {
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 220px;
+    width: 25%;
+}
+
+.graph_title_pageNum {
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 220px;
+    width: 25%;
+}
+
 .graph_image {
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 .waiting {
-    justify-content: center;
-    margin-top: 10%;
+    margin-top: 18.25%;
+    margin-left: 25px;
 }
 
 .waiting_title {
@@ -64,6 +79,26 @@
     height: 100px;
 }
 
+.paginationCheckmark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 0 15px 4px rgb(44, 114, 200, 0.5);
+    border-radius: 10px;
+    background: #009DDC;
+    color: white;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.toggleText{
+    margin-left: 27%;
+}
+
+.checkbox{
+    margin-left: 45%;
+}
 .graph_entriesInput {
     margin-top: 10px;
     font-size: 25px;
@@ -96,9 +131,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 10px;
-    margin-left: 40px;
-    width: 25%;
+    width: 
 }
 
     .dropdownMenu_state a {
@@ -136,9 +169,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    width: 25%;
-    margin-top: 10px;
-    margin-left: 33px;
+    width: 100px;
 }
 
     .dropdownMenu_country a {
@@ -166,4 +197,68 @@
     height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.backButton {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #009DDC;
+    text-align: center;
+    transition: all 0.2s;
+    box-shadow: 0 0 15px 4px rgb(44, 114, 200, 0.5);
+    border-radius: 10px;
+    width: 75px
+}
+
+.backButton:hover {
+    background-color: #00BDDC;
+}
+
+.nextButton {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #009DDC;
+    text-align: center;
+    transition: all 0.2s;
+    box-shadow: 0 0 15px 4px rgb(44, 114, 200, 0.5);
+    border-radius: 10px;
+    width: 75px;
+    margin-right: 10px;
+}
+
+    .nextButton:hover {
+        background-color: #00BDDC;
+    }
+.buttonWrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5px;
+    height: 100px;
+}
+
+.regionWrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.graph_interface_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
 }
